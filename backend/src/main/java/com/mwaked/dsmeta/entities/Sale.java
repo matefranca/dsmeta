@@ -1,6 +1,7 @@
 package com.mwaked.dsmeta.entities;
 
 import java.time.LocalDate;
+import java.util.List;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -70,7 +71,5 @@ public class Sale {
 
 	public void setDate(LocalDate date) {
 		this.date = date;
-	}
-	
-	
+	}	
 }
